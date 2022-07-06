@@ -1,0 +1,12 @@
+.pics-render {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0 10px;
+  margin-top: 30px;
+  grid-auto-rows: 10px;
+}
+
+.pics-render img {
+  width: 250px;
+  grid-row-end: span 2;
+}
